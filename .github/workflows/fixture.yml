@@ -1,0 +1,13 @@
+name: Ground Truth P22-C
+on:
+  workflow_dispatch:
+permissions: read-all
+jobs:
+  fixture:
+    if: ${{ false }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ground-truth target operation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo P22-C
