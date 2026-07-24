@@ -1,0 +1,10 @@
+id: P22-C
+repository: aci-gt-p22-control
+visibility: public
+stage: P2
+rule: P2.2
+kind: control
+atomic_variable: "permissions: read-all，无写操作"
+expected_status: NOT_APPLICABLE
+setup: AUTO_FILES
+configuration_state: COMPLETE
